@@ -44,16 +44,54 @@
     </header>
     <main class="main">
         <h1 class="textoPricipales">Contactanos</h1>
-        <section class="formulario">
-            <input class="controls" type="text" name="Nombre" id="nombre" placeholder="Nombre">
-            <input class="controls" type="text" name="Apellido" id="nombre" placeholder="Apellido">
-            <input class="controls" type="text" name="Estado" id="nombre" placeholder="Estado">
-            <input class="controls" type="text" name="Asunto" id="nombre" placeholder="Asunto">
-            <input class="controls" type="email" name="Emeal" id="nombre" placeholder="Emeal">
-            <input class="controls" type="tel" name="Telefono" id="nombre" placeholder="Telefono">
-            <input class="coment" type="search" name="comentario">
-            <input class="boton" type="submit" value="Enviar">
-        </section>
+        <form class="row g-3 formulario">
+            <div class="col-md-5">
+                <label for="inputName" class="form label">Nombre</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+            </div>
+            <div class="col-md-5">
+                <label for="inputLastName" class="form label">Apellidos</label>
+                <input type="text" class="form-control" id="inputLastName" placeholder="Apellido">
+            </div>
+            <div class="col-md-5">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-5">
+              <label for="inputCelular" class="form-label">Celular</label>
+              <input type="number" class="form-control" id="inputCelular">
+            </div>
+            <div class="col-10">
+              <label for="inputAddress" class="form-label">Direccion</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Av Miguel Hidalgo">
+            </div>
+            <div class="col-md-5">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-3">
+              <label for="inputState" class="form-label">Estado</label>
+              <select id="inputState" class="form-select">
+                <option selected>Selecciona...</option>
+                <option>Hidalgo</option>
+                <option>Ciudad de Mexico</option>
+                <option>Puebla</option>
+                <option>Tlaxcala</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Codigo postal</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-md-10">
+                <label for="BoxComents" class="form-label">Dejanos tu comentario</label>
+                <textarea class="form-control" id="BoxComents" rows="5"></textarea>
+              </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </section> -->
     </main>
     <footer class="footer">
         <ul class="listaMedia">

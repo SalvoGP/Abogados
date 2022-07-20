@@ -22,6 +22,11 @@ body{
     margin: 50px;
 }
 
+.Letrero:hover{
+    transform: scale(2);
+    transition: transform 2s;
+}
+
 .ubicacion{
     color: blue;
     text-align: center;
@@ -75,7 +80,6 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content:center
-    /* align-items: center; */
 }
 
 .srviciosUno{
@@ -123,10 +127,7 @@ h1{
 }
 
 .formulario{
-    width: 600px;
-    padding: 30px;
-    margin: auto;
-    justify-content: space-evenly;
+    justify-content:center;
 }
 
 .controls{
