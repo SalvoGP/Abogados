@@ -90,6 +90,10 @@ body {
   width: 300;
 }
 
+.formulario {
+  justify-content: center;
+}
+
 @media screen and (max-width: 320px) {
   iframe {
     width: 250px;
@@ -142,4 +146,26 @@ body {
   padding: 30px;
   color: darkblue;
   text-align: center;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.galeria__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.galeria__card img {
+  width: 200px;
+  height: 200px;
+}
+
+.invertido {
+  align-self: flex-end;
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=main.css.map */
