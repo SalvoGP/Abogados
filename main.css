@@ -148,6 +148,15 @@ body {
   text-align: center;
 }
 
+.carousel-inner img {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .galeria {
   display: flex;
   flex-direction: column;
